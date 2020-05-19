@@ -1,0 +1,111 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: rgb(224, 70, 70);
+    color: white;
+    
+
+}
+.first-heading {
+    font-family: 'Archivo Black', sans-serif;
+    line-height: 70px;
+    font-size: 4rem;
+    
+}
+.container-fluid{
+    padding: 3% 10% !important ;
+}
+
+/* Navigation bar */
+
+.navbar{
+    padding: 0 0 3rem !important;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 2rem !important ;
+    font-weight: bold !important;
+}
+
+.collapse {
+    
+    padding-inline-end: 10rem !important;
+}
+
+.nav-item {
+    padding-inline: 1rem !important;
+}
+.nav-link{
+
+    font-size: 1.5rem !important;
+}
+
+/* Download Buttons */
+
+.button-download {
+
+    margin:5% 3% 0 0 !important;    
+}
+
+  /* Title Image */
+
+  .title-image {
+
+    width: 50%;
+  transform: rotate(18deg);
+  
+  }
+
+
+                                                  /* Section 2 features */
+
+
+
+
+
+#features{
+    padding: 10% 15% !important;
+    
+}
+
+.tick {
+    width: 20%;
+    margin-bottom: 7% !important;
+    transition: transform .2s !important;
+}
+.tick:hover {
+    transform: scale(1.5);
+}
+.shape {
+
+    width: 20%;
+    margin-bottom: 7% !important;
+    transition: transform .2s !important;
+}
+.shape:hover {
+    transform: scale(1.5);
+}
+.heart{
+
+    width: 20%;
+    margin-bottom: 7% !important;
+    transition: transform .2s !important;
+}
+.heart:hover {
+    transform: scale(1.5);
+}
+
+.feature-box {
+    text-align: center;
+    padding:0 4% !important;
+}
+
+.head {
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 20px;
+}

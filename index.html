@@ -4,12 +4,23 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+  
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ubuntu:wght@500&display=swap" rel="stylesheet"> 
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
 </head>
 
 
@@ -17,8 +28,10 @@
 
   <section id="title">
 
-     <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="">Tindog</a>
+    <div class="container-fluid" >
+
+     <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand"  href="">tindog</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -35,21 +48,31 @@
         </li>
     </ul>
  </div>
+
+ 
 </nav>
 
 
 
 
-    <!-- Title -->
+    <!-- Buttons -->
+    
+    <div class="row">
+      <div class="col-lg-6 col">
+      <h1 class="first-heading">Meet new and interesting dogs nearby.</h1>
+      <button type="button" class="btn btn-dark btn-lg button-download"> <i class="fa fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg button-download"> <i class="fa fa-android"></i> Download</button>
+    </div>
 
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+    <div class="col-lg-6">
+      <img src="images/iphone6.png" class="title-image" alt="iphone-mockup">
     </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
-    </div>
+  </div>
+     
+
+</div>
+
+
 
   </section>
 
@@ -58,15 +81,31 @@
 
   <section id="features">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+    <div class="row">
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+      <div class="feature-box col-lg-4">
+        <img src="images/interface.png" alt="tick" class="tick" >
+    <h3 class="head">Easy to use.</h3>
+    <p class="" style="color: grey;">So easy to use, even your dog could do it.</p>
+  </div>
 
+    <div class="feature-box col-lg-4">
+      <img src="images/shapes.png" alt="shape" class="shape" >
+    <h3 class="head">Elite Clientele.</h3>
+    <p class="" style="color: grey;">We have all the dogs, the greatest dogs.</p>
+  </div>
+
+    <div class="feature-box col-lg-4">
+      <img src="images/hands-and-gestures.png" alt="heart" class="heart">
+    <h3 class="head">Guaranteed to work.</h3>
+    <p class="" style="color: grey;">Find the love of your dog's life or your money back.</p>
+  </div>
+
+
+
+
+  </div>
   </section>
 
 
