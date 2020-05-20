@@ -4,9 +4,10 @@ body{
 }
 
 #title{
-    background-color: rgb(224, 70, 70);
+    background-color: #e04646;
     color: white;
     
+
 
 }
 .first-heading {
@@ -41,7 +42,7 @@ body{
 }
 .nav-link{
 
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
 }
 
 /* Download Buttons */
@@ -109,3 +110,53 @@ body{
     font-family: 'Archivo Black', sans-serif;
     font-size: 20px;
 }
+
+
+                             /* Testimonials */
+
+#testimonials {
+
+    text-align: center;
+    background-color: #e04646 ;
+    color: lavender;
+}
+
+.testimonial-image {
+
+    width: 15% !important;
+    border-radius: 100% !important;
+    margin-top: 20px;
+    
+} 
+                           /* Press  */
+
+#press {
+
+    background-color: #e04646 ;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.press-icon {
+
+    width: 17% !important;
+    padding-right: 4%;
+}
+.carousel-item {
+
+    padding: 7% 10%;
+}
+
+        /* pricing */
+
+#pricing {
+
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    padding: 100px;
+}
+
+.pricing-coloum {
+
+    padding: 2% 4% !important;
+}
+
