@@ -17,7 +17,7 @@ body{
     
 }
 .container-fluid{
-    padding: 3% 10% !important ;
+    padding: 3% 10% 9% !important ;
 }
 
 /* Navigation bar */
@@ -57,7 +57,12 @@ body{
   .title-image {
 
     width: 50%;
-  transform: rotate(18deg);
+  transform: rotate(25deg);
+  position: absolute;
+  right: 40%;
+  
+  
+  
   
   }
 
@@ -70,6 +75,9 @@ body{
 
 #features{
     padding: 10% 15% !important;
+    background-color: white;
+    position: relative;
+    
     
 }
 
@@ -134,7 +142,7 @@ body{
 
     background-color: #e04646 ;
     text-align: center;
-    padding-bottom: 4%;
+    padding-bottom: 5%;
 }
 .press-icon {
 
@@ -143,20 +151,89 @@ body{
 }
 .carousel-item {
 
-    padding: 7% 10%;
+    padding: 5% 5%;
 }
 
         /* pricing */
 
 #pricing {
 
-    text-align: center;
+    
     font-family: 'Archivo Black', sans-serif;
     padding: 100px;
+    
 }
 
+.card-head {
+    
+    background-color: #d92027 ;
+    color: white;
+
+}
+
+.card-body {
+
+    background-color:  #ce3439 ;
+    color: white;
+
+}
 .pricing-coloum {
 
-    padding: 2% 4% !important;
+   
+      padding: 4% 3% !important;
+    
 }
 
+
+
+                    /* cta */
+    
+#cta {
+
+   background-color: #ce3439; 
+   padding: 10% 15%;
+   text-align: center;
+   font-family: 'Archivo Black', sans-serif;
+   color: aliceblue;
+}
+
+.button-download-cta {
+
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+            /* footer */
+
+#footer {
+
+    background-color: #fff;
+    padding: 3% 2%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-icons {
+
+    padding-top: 2rem;
+    letter-spacing: 5px;
+}
+
+                
+
+@media (max-width: 1080px) {
+
+    .title-image {
+
+        position: static;
+        transform: rotate(0);
+        padding-top: 30px;
+        
+    }
+
+    #title {
+
+        text-align: center;
+    }
+}
