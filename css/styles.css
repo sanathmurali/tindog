@@ -2,41 +2,33 @@ body{
 
     font-family: 'Montserrat', sans-serif;
 }
+h1 {  
+    font-family: 'Archivo Black', sans-serif !important; 
+    line-height: 70px !important;
+    font-size: 4rem !important;
+}
+                                   /* title */
 
 #title{
     background-color: #e04646;
     color: white;
-    
-
-
-}
-.first-heading {
-    font-family: 'Archivo Black', sans-serif;
-    line-height: 70px;
-    font-size: 4rem;
-    
 }
 .container-fluid{
     padding: 3% 10% 9% !important ;
 }
-
-/* Navigation bar */
+                                /* Navigation bar */
 
 .navbar{
     padding: 0 0 3rem !important;
 }
-
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif !important;
     font-size: 2rem !important ;
     font-weight: bold !important;
 }
-
 .collapse {
-    
-    padding-inline-end: 10rem !important;
+    padding-inline-end: 7rem !important;
 }
-
 .nav-item {
     padding-inline: 1rem !important;
 }
@@ -44,82 +36,44 @@ body{
 
     font-size: 1rem !important;
 }
-
-/* Download Buttons */
+                             /* Download Buttons */
 
 .button-download {
 
     margin:5% 3% 0 0 !important;    
 }
-
-  /* Title Image */
+                                   /* Title Image */
 
   .title-image {
 
     width: 50%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 40%;
-  
-  
-  
-  
+    transform: rotate(25deg);
+    position: absolute;
+    right: 40%; 
   }
-
-
-                                                  /* Section 2 features */
-
-
-
-
-
+                             /* Section 2 features */
 #features{
     padding: 10% 15% !important;
     background-color: white;
-    position: relative;
-    
-    
+    position: relative;   
 }
-
-.tick {
+.feature-icons{
     width: 20%;
     margin-bottom: 7% !important;
     transition: transform .2s !important;
 }
-.tick:hover {
+.feature-icons:hover {
     transform: scale(1.5);
 }
-.shape {
-
-    width: 20%;
-    margin-bottom: 7% !important;
-    transition: transform .2s !important;
-}
-.shape:hover {
-    transform: scale(1.5);
-}
-.heart{
-
-    width: 20%;
-    margin-bottom: 7% !important;
-    transition: transform .2s !important;
-}
-.heart:hover {
-    transform: scale(1.5);
-}
-
 .feature-box {
     text-align: center;
     padding:0 4% !important;
 }
-
 .head {
     font-weight: bold;
     font-family: 'Archivo Black', sans-serif;
     font-size: 20px;
 }
-
-
                              /* Testimonials */
 
 #testimonials {
@@ -128,16 +82,13 @@ body{
     background-color: #e04646 ;
     color: lavender;
 }
-
 .testimonial-image {
 
     width: 15% !important;
     border-radius: 100% !important;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 } 
                            /* Press  */
-
 #press {
 
     background-color: #e04646 ;
@@ -156,38 +107,26 @@ body{
 
         /* pricing */
 
-#pricing {
-
-    
+#pricing {  
     font-family: 'Archivo Black', sans-serif;
     padding: 100px;
     
 }
-
 .card-head {
     
     background-color: #d92027 ;
     color: white;
-
 }
-
 .card-body {
 
     background-color:  #ce3439 ;
     color: white;
-
 }
 .pricing-coloum {
-
-   
       padding: 4% 3% !important;
     
 }
-
-
-
-                    /* cta */
-    
+                    /* cta */    
 #cta {
 
    background-color: #ce3439; 
@@ -196,13 +135,11 @@ body{
    font-family: 'Archivo Black', sans-serif;
    color: aliceblue;
 }
-
 .button-download-cta {
 
    margin-top: 20px;
    margin-left: 20px;
 }
-
             /* footer */
 
 #footer {
@@ -213,14 +150,16 @@ body{
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
-
 .footer-icons {
 
     padding-top: 2rem;
     letter-spacing: 5px;
 }
 
-                
+
+
+
+
 
 @media (max-width: 1080px) {
 
@@ -237,3 +176,6 @@ body{
         text-align: center;
     }
 }
+
+
+                                        /* Designed by @sanathmurali */
