@@ -10,11 +10,11 @@ h1 {
                                    /* title */
 
 #title{
-    background-color: #e04646;
+    background-color: #d72323;
     color: white;
 }
 .container-fluid{
-    padding: 3% 10% 9% !important ;
+    padding: 3% 10% 10% !important ;
 }
                                 /* Navigation bar */
 
@@ -79,7 +79,7 @@ h1 {
 #testimonials {
 
     text-align: center;
-    background-color: #e04646 ;
+    background-color: #d72323 ;
     color: lavender;
 }
 .testimonial-image {
@@ -91,7 +91,7 @@ h1 {
                            /* Press  */
 #press {
 
-    background-color: #e04646 ;
+    background-color: #d72323 ;
     text-align: center;
     padding-bottom: 5%;
 }
@@ -129,7 +129,7 @@ h1 {
                     /* cta */    
 #cta {
 
-   background-color: #ce3439; 
+   background-color: #d72323; 
    padding: 10% 15%;
    text-align: center;
    font-family: 'Archivo Black', sans-serif;
